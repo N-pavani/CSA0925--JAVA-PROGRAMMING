@@ -1,0 +1,25 @@
+class parent
+{
+ int value;
+ parent(int v)
+{
+ value=v;
+}
+}
+class child extends parent
+{
+ int value1;
+child(int v,int x)
+{
+super(v);
+value1=x;
+}
+public static void main(String[] args)
+{
+parent p=new parent(100,200);
+p.parent();
+p.child();
+System.out.println("the value is:" +value);
+System.out.println("the value is:" +value1);
+}
+}
