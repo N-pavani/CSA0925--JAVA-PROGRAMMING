@@ -1,0 +1,10 @@
+import java.util.*;
+class Circle
+{
+public static void main(String[] args)
+{
+double r=2.1;
+double circle=3.14*r*r;
+System.out.println("area of circle" +circle);
+}
+}
