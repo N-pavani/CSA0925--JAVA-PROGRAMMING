@@ -1,0 +1,25 @@
+
+class shape{
+ void get()
+{
+ int r=2;
+}
+void calculate()
+{
+  area=4*3.14*r*r;
+  volume=(4/3)*3.14.r*r*r;
+}
+void display()
+{
+System.out.println("area of sphere " +area);
+System.out.println("volume of sphere "+volume);
+}
+public static void main(String[] args)
+{
+shape s1=new shape();
+s1.display();
+}
+}
+
+ 
+ 
